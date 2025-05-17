@@ -1,0 +1,7 @@
+websocket:
+  url: "wss://ws.okx.com:8443/ws/v5/public"
+  symbols: ["BTC-USDT", "ETH-USDT"]
+  
+models:
+  daily_volume: 1000000  # Default market volume for impact calc
+  volatility_window: 1000 # Price points for auto-volatility
